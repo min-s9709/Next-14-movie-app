@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.container h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.container a {
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: rgb(55, 65, 81);
+}
+
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 24px;
+  }
+
+  .container p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .container a {
+    padding: 4px 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container h1 {
+    font-size: 20px;
+  }
+
+  .container p {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+
+  .container a {
+    padding: 3px 6px;
+  }
+}
